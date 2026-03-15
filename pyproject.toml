@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "insurance-jlm"
-version = "0.1.0"
+version = "0.1.1"
 description = "Joint Longitudinal-Survival Models for insurance pricing. Shared Random Effects Model linking telematics trajectories to claim hazard."
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -34,9 +34,10 @@ dependencies = [
 dev = ["pytest>=8.0", "pytest-cov"]
 
 [project.urls]
-Repository = "https://github.com/burningcost/insurance-jlm"
-Issues = "https://github.com/burningcost/insurance-jlm/issues"
-Homepage = "https://burningcost.com"
+Repository = "https://github.com/burning-cost/insurance-jlm"
+Issues = "https://github.com/burning-cost/insurance-jlm/issues"
+Homepage = "https://github.com/burning-cost/insurance-jlm"
+Documentation = "https://github.com/burning-cost/insurance-jlm#readme"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/insurance_jlm"]
